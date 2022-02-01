@@ -34,6 +34,39 @@
             text-decoration: none;
             border: 1px solid red;
         }
+        .row-2{
+            margin-top: 10px;
+            display: flex;
+           flex: 1;
+
+        }
+        .flex-item{
+            border: 1px solid blue;
+        }
+        .row-3{ 
+            margin-top: 10px;
+            display: flex;
+           
+        }
+        .flex-item-3{
+            border: 1px solid red;
+            flex-basis: 30%;
+        }
+        .bigger{
+            flex-basis: 70%;
+        }
+        .row-4{
+            margin-top: 20px;
+            display: flex;
+        }
+        .flex-item-4{
+            border: 1px solid green;
+            flex: 1 0 0%;
+        }
+        .bigger-4{
+            flex-grow: 3;
+        }
+        
     </style>
 </head>
 <body>
@@ -47,6 +80,34 @@
                 <li><a href="#">contact</a></li>
             </ul>
         </div>
+        <div class="row-2">
+            <div class="flex-item">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur rem error asperiores ratione, accusamus magni consequuntur explicabo blanditiis voluptatum doloremque dolore cum recusandae temporibus atque illum quam laboriosam eos repudiandae.</p>
+            </div>
+            <div class="flex-item">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur rem error asperiores ratione, accusamus magni consequuntur explicabo blanditiis voluptatum doloremque dolore cum recusandae temporibus atque illum quam laboriosam eos repudiandae.</p>
+            </div>
+            
+        </div>
+        <div class="row-3">
+            <div class="flex-item-3 bigger">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur rem error asperiores ratione, accusamus magni consequuntur explicabo blanditiis voluptatum doloremque dolore cum recusandae temporibus atque illum quam laboriosam eos repudiandae.</p>
+            </div>
+            <div class="flex-item-3">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur rem error asperiores ratione, accusamus magni consequuntur explicabo blanditiis voluptatum doloremque dolore cum recusandae temporibus atque illum quam laboriosam eos repudiandae.</p>
+            </div>
     </div>
+
+    <div class="row-4">
+        <div class="flex-item-4">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur rem error asperiores ratione, accusamus magni consequuntur explicabo blanditiis voluptatum doloremque dolore cum recusandae temporibus atque illum quam laboriosam eos repudiandae.</p>
+        </div>
+        <div class="flex-item-4 bigger-4">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur rem error asperiores ratione, accusamus magni consequuntur explicabo blanditiis voluptatum doloremque dolore cum recusandae temporibus atque illum quam laboriosam eos repudiandae.</p>
+        </div>
+        <div class="flex-item-4">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur rem error asperiores ratione, accusamus magni consequuntur explicabo blanditiis voluptatum doloremque dolore cum recusandae temporibus atque illum quam laboriosam eos repudiandae.</p>
+        </div>
+</div>
 </body>
 </html>
